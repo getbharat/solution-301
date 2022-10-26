@@ -45,7 +45,7 @@ public class BasketBallTest {
 	 */
 	private static void testOverloadedConstructor() {
 		final BasketBall basketBall = new BasketBall("Puma", "Black", 10000);
-		System.out.println("Testing Overloaded Constructor brandName: Pumna, color: Black, price: 10000");
+		System.out.println("Testing Overloaded Constructor brandName: Puma, color: Black, price: 10000");
 		System.out.println("brandName: " + basketBall.getBrandName());
 		System.out.println("color: " + basketBall.getColor());
 		System.out.println("price: " + basketBall.getPrice());
